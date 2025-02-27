@@ -41,4 +41,6 @@ alias source-zsh='source ~/.zshrc'
 
 # PERSONAL 
 alias set_web='cd ~/projects/sanjidnet.github.io'
-alias set_local='cd /mnt/c/Users/SanjidRahman/projects/'
+alias set_local='cd /mnt/c/Users/sxr20jan/'
+
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
