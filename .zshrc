@@ -27,7 +27,7 @@ function knit { Rscript -e "rmarkdown::render('$1')"; }
 complete -f -X '!*.Rmd' knit
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-export HISTFILE=$ZDOTDIR/.hist_zsh
+export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=5000000
 export SAVEHIST=$HISTSIZE
 
