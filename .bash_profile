@@ -14,3 +14,4 @@ if tmux -V; then
 else echo "For tmux on Windows: https://blog.pjsen.eu/?p=440"
 fi
 
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
