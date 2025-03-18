@@ -1,4 +1,4 @@
-# utils
+# utils 
 install ripgrep
 
 # tools
@@ -10,7 +10,8 @@ sudo apt-get install fzf
 # language
 sudo apt-get install python
 sudo apt-get install rbenv
-install R
+# install R
+# Install go: https://go.dev/doc/install
 
 # cloud
 install awscli

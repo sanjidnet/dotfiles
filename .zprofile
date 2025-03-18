@@ -14,6 +14,9 @@ fi
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 
+# Go
+export PATH=$PATH:/usr/local/go/bin
+
 # SOURCES
 if [ -f $HOME/snow.env ]; then
   echo 'Snow Env Found'
