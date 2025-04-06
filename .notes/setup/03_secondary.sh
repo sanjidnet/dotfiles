@@ -4,6 +4,11 @@ install ripgrep
 # tools
 sudo apt-get install tmux
 sudo apt-get install vim plugins
+# install and config fzf
+# <C-r> makes incremental backward search better 
+# and <C-t> to make files file searches better
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 
 # language
 sudo apt-get install python

@@ -29,3 +29,5 @@ complete -C /usr/bin/terraform terraform
 function knit { Rscript -e "rmarkdown::render('$1')"; }
 export -f knit
 complete -f -X '!*.Rmd' knit
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
